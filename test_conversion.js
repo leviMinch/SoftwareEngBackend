@@ -3,7 +3,7 @@ const axios = require('axios');
 // Function to test the conversion API
 const testConversion = async (curr_unit, amount, desired) => {
     try {
-        const response = await axios.post('http://localhost:3000/convert', {
+        const response = await axios.post('https://fathomless-fjord-42807-d7734a491f1f.herokuapp.com/convert', {
             curr_unit,
             amount,
             desired
