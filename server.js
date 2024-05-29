@@ -3,21 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
-/*
-json request format:
-{
-    "curr_unit": "current unit",
-    "amount": number,
-    "desired": "desired unit"
-}
 
-json response format:
-{
-    "unit": "desired unit",
-    "amount": number
-}
-
-*/
 const conversions = {
     "volume": {
         "tsp": 1,
@@ -38,43 +24,30 @@ const conversions = {
     }
 };
 
-const convertVolume = (amount, from, to) => {
-    const amountInTsp = amount * conversions.volume[from];
-    const result = amountInTsp / conversions.volume[to];
+const convertUnits = (amount, from, to, type) => {
+    const baseAmount = amount * conversions[type][from];
+    const result = baseAmount / conversions[type][to];
     return parseFloat(result.toFixed(3));
 };
 
-const convertWeight = (amount, from, to) => {
-    const amountInOz = amount * conversions.weight[from];
-    const result = amountInOz / conversions.weight[to];
-    return parseFloat(result.toFixed(3));
-};
-
-const isVolumeUnit = unit => conversions.volume.hasOwnProperty(unit);
-const isWeightUnit = unit => conversions.weight.hasOwnProperty(unit);
+const isUnitValid = (unit, type) => conversions[type].hasOwnProperty(unit);
 
 app.post('/convert', (req, res) => {
     const { curr_unit, amount, desired } = req.body;
 
     if (!curr_unit || !desired || typeof amount !== 'number') {
-        return res.status(400).json({ error: 'Invalid input' });
+        return res.status(400).json({ error: 'Invalid input: Ensure current unit, desired unit, and amount are correctly specified.' });
     }
 
-    if (isVolumeUnit(curr_unit) && isVolumeUnit(desired)) {
-        const convertedAmount = convertVolume(amount, curr_unit, desired);
+    const type = isUnitValid(curr_unit, 'volume') && isUnitValid(desired, 'volume') ? 'volume' :
+                 isUnitValid(curr_unit, 'weight') && isUnitValid(desired, 'weight') ? 'weight' : null;
+
+    if (type) {
+        const convertedAmount = convertUnits(amount, curr_unit, desired, type);
         return res.json({ unit: desired, amount: convertedAmount });
     }
 
-    if (isWeightUnit(curr_unit) && isWeightUnit(desired)) {
-        const convertedAmount = convertWeight(amount, curr_unit, desired);
-        return res.json({ unit: desired, amount: convertedAmount });
-    }
-
-    if ((isVolumeUnit(curr_unit) && isWeightUnit(desired)) || (isWeightUnit(curr_unit) && isVolumeUnit(desired))) {
-        return res.status(400).json({ error: 'Cannot convert between volume and weight directly' });
-    }
-
-    return res.status(400).json({ error: 'Unknown units' });
+    return res.status(400).json({ error: 'Incompatible or unknown units' });
 });
 
 app.listen(port, () => {
