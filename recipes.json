@@ -1,0 +1,452 @@
+[
+  {
+    "Title": "Fried Rice",
+    "Author": "Jane Doe",
+    "ID": 0,
+    "Overview": "This easy and tasty fried rice recipe is perfect for a quick lunch or dinner. It's a great way to use up leftover rice and can be made with whatever vegetables you have on hand. The soy sauce adds a savory flavor that makes this dish irresistible. This recipe is not only delicious, but it's also versatile and quick to make, making it perfect for busy weeknights or when you're craving some takeout-style fried rice at home.",
+    "Image": "/images/Fried-Rice.jpg",
+    "Date Added": "01-02-2022",
+    "Ingredients": [
+      {
+        "Name": "Cooked Rice",
+        "Amount": 2,
+        "Unit": "cups"
+      },
+      {
+        "Name": "Mixed Vegetables",
+        "Amount": 1,
+        "Unit": "cup"
+      },
+      {
+        "Name": "Soy Sauce",
+        "Amount": 2,
+        "Unit": "tbsp"
+      }
+    ],
+    "Steps": [
+      "Heat oil in a skillet.",
+      "Add the mixed vegetables and cook until tender.",
+      "Add the rice and soy sauce.",
+      "Stir until well mixed and heated through."
+    ],
+    "Servings": 2,
+    "Cook Time": {
+      "Prep": "10 minutes",
+      "Cook": "15 minutes",
+      "Total": "25 minutes"
+    },
+    "Tags": [
+      "Asian",
+      "Vegetarian"
+    ],
+    "Rating": {
+      "Average": 4,
+      "Number of Ratings": 80
+    }
+  },
+  {
+    "Title": "Tacos",
+    "Author": "John Doe",
+    "ID": "1",
+    "Overview": "Delicious homemade tacos that are sure to be a hit at your next gathering. These tacos are filled with seasoned ground beef and served in crunchy taco shells. Top them with your favorite garnishes, like lettuce, tomato, cheese, and salsa for a meal that's customizable to each diner's preference. Whether you're serving these at a party or just for a weeknight dinner, they're sure to be a hit.",
+    "Image": "/images/tacos.jpeg",
+    "Date Added": "01-01-2022",
+    "Ingredients": [
+      {
+        "Name": "Ground Beef",
+        "Amount": 1,
+        "Unit": "lb"
+      },
+      {
+        "Name": "Taco Seasoning",
+        "Amount": 1,
+        "Unit": "packet"
+      },
+      {
+        "Name": "Taco Shells",
+        "Amount": 12,
+        "Unit": "shells"
+      }
+    ],
+    "Steps": [
+      "Cook the ground beef in a skillet.",
+      "Add the taco seasoning.",
+      "Heat the taco shells.",
+      "Serve the beef in the taco shells."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "10 minutes",
+      "Cook": "20 minutes",
+      "Total": "30 minutes"
+    }
+  },
+  {
+    "Title": "Pizza",
+    "Author": "Mario Rossi",
+    "ID": 2,
+    "Overview": "This classic homemade pizza recipe is a fun and creative way to make dinner. The pizza dough is easy to make and the toppings can be customized to your liking. The tomato sauce and mozzarella cheese create a classic combination that's always a crowd-pleaser. Whether you're making this for a fun family dinner or for a pizza party, this recipe is sure to impress. Plus, making your own pizza at home is a great way to save money and still enjoy a delicious meal.",
+    "Image": "/images/pizza.jpeg",
+    "Date Added": "01-03-2022",
+    "Ingredients": [
+      {
+        "Name": "Pizza Dough",
+        "Amount": 1,
+        "Unit": "ball"
+      },
+      {
+        "Name": "Tomato Sauce",
+        "Amount": 0.5,
+        "Unit": "cup"
+      },
+      {
+        "Name": "Mozzarella Cheese",
+        "Amount": 1,
+        "Unit": "cup"
+      }
+    ],
+    "Steps": [
+      "Preheat oven to 475 degrees F.",
+      "Roll out the pizza dough.",
+      "Spread the tomato sauce over the dough.",
+      "Sprinkle the cheese over the sauce.",
+      "Bake for 12-15 minutes or until crust is golden and cheese is bubbly."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "15 minutes",
+      "Cook": "15 minutes",
+      "Total": "30 minutes"
+    },
+    "Tags": [
+      "Italian",
+      "Cheese"
+    ],
+    "Rating": {
+      "Average": 4.7,
+      "Number of Ratings": 200
+    }
+  },
+  {
+    "Title": "Pasta Carbonara",
+    "Author": "Luigi Bianchi",
+    "ID": 3,
+    "Overview": "This classic Italian dish combines creamy eggs, cheese, and crispy pancetta for a quick and delicious dinner. The key to a successful carbonara is to toss the hot pasta with the sauce ingredients to create a smooth and creamy sauce without scrambling the egg.",
+    "Image": "/images/pasta_carbonara.jpg",
+    "Date Added": "02-03-2022",
+    "Ingredients": [
+      {
+        "Name": "Spaghetti",
+        "Amount": 200,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Pancetta",
+        "Amount": 100,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Eggs",
+        "Amount": 2,
+        "Unit": "whole"
+      },
+      {
+        "Name": "Parmesan Cheese",
+        "Amount": 50,
+        "Unit": "grams"
+      }
+    ],
+    "Steps": [
+      "Cook the spaghetti according to the package instructions.",
+      "Fry the pancetta until crispy.",
+      "Beat the eggs in a bowl and mix in the cheese.",
+      "Drain the pasta and reserve some of the pasta water.",
+      "Toss the hot pasta with the egg mixture and add some pasta water if needed.",
+      "Add the pancetta and mix well.",
+      "Serve immediately."
+    ],
+    "Servings": 2,
+    "Cook Time": {
+      "Prep": "10 minutes",
+      "Cook": "20 minutes",
+      "Total": "30 minutes"
+    },
+    "Tags": [
+      "Italian",
+      "Pasta"
+    ],
+    "Rating": {
+      "Average": 4.7,
+      "Number of Ratings": 200
+    }
+  },
+  {
+    "Title": "Chicken Tikka Masala",
+    "Author": "Ravi Kumar",
+    "ID": 4,
+    "Overview": "This popular Indian dish features marinated chicken pieces that are broiled until they're delightfully charred, then bathed in a heavenly spiced tomato cream sauce. It's a flavorful and comforting dish that's great served over rice.",
+    "Image": "/images/chicken_tikka_masala.jpg",
+    "Date Added": "03-03-2022",
+    "Ingredients": [
+      {
+        "Name": "Chicken Breasts",
+        "Amount": 2,
+        "Unit": "whole"
+      },
+      {
+        "Name": "Yogurt",
+        "Amount": 0.5,
+        "Unit": "cup"
+      },
+      {
+        "Name": "Tikka Masala Spice Mix",
+        "Amount": 2,
+        "Unit": "tablespoons"
+      },
+      {
+        "Name": "Tomato Sauce",
+        "Amount": 1,
+        "Unit": "can"
+      },
+      {
+        "Name": "Heavy Cream",
+        "Amount": 1,
+        "Unit": "cup"
+      }
+    ],
+    "Steps": [
+      "Marinate the chicken in the yogurt and spice mix for at least 1 hour.",
+      "Broil the chicken until it's charred.",
+      "In a pan, heat the tomato sauce and spices.",
+      "Add the broiled chicken to the pan and stir in the cream.",
+      "Simmer until the chicken is cooked through.",
+      "Serve over rice."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "15 minutes",
+      "Cook": "45 minutes",
+      "Total": "1 hour"
+    },
+    "Tags": [
+      "Indian",
+      "Chicken"
+    ],
+    "Rating": {
+      "Average": 4.8,
+      "Number of Ratings": 300
+    }
+  },
+  {
+    "Title": "Beef Stroganoff",
+    "Author": "Ivan Petrov",
+    "ID": 5,
+    "Overview": "This classic Russian dish features tender strips of beef and mushrooms in a rich and creamy sauce. It's a hearty and comforting dish that's perfect for a cold winter's night.",
+    "Image": "/images/beef_stroganoff.jpg",
+    "Date Added": "04-03-2022",
+    "Ingredients": [
+      {
+        "Name": "Beef Sirloin",
+        "Amount": 500,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Mushrooms",
+        "Amount": 200,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Onion",
+        "Amount": 1,
+        "Unit": "whole"
+      },
+      {
+        "Name": "Sour Cream",
+        "Amount": 1,
+        "Unit": "cup"
+      }
+    ],
+    "Steps": [
+      "Slice the beef into thin strips.",
+      "Fry the beef until it's browned, then remove it from the pan.",
+      "In the same pan, fry the onions and mushrooms until they're soft.",
+      "Return the beef to the pan and stir in the sour cream.",
+      "Simmer until the beef is tender.",
+      "Serve over noodles or rice."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "15 minutes",
+      "Cook": "45 minutes",
+      "Total": "1 hour"
+    },
+    "Tags": [
+      "Russian",
+      "Beef"
+    ],
+    "Rating": {
+      "Average": 4.6,
+      "Number of Ratings": 150
+    }
+  },
+  {
+    "Title": "Fish Tacos",
+    "Author": "Carlos Garcia",
+    "ID": 6,
+    "Overview": "These delicious fish tacos feature crispy fried fish, tangy slaw, and a creamy sauce. They're a great way to change up your taco night routine!",
+    "Image": "/images/fish_tacos.jpg",
+    "Date Added": "05-03-2022",
+    "Ingredients": [
+      {
+        "Name": "White Fish",
+        "Amount": 500,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Taco Shells",
+        "Amount": 8,
+        "Unit": "whole"
+      },
+      {
+        "Name": "Cabbage",
+        "Amount": 0.5,
+        "Unit": "head"
+      },
+      {
+        "Name": "Mayonnaise",
+        "Amount": 0.5,
+        "Unit": "cup"
+      },
+      {
+        "Name": "Lime",
+        "Amount": 1,
+        "Unit": "whole"
+      }
+    ],
+    "Steps": [
+      "Fry the fish until it's crispy.",
+      "Shred the cabbage and mix it with the mayonnaise and lime juice to make a slaw.",
+      "Heat the taco shells.",
+      "Serve the fish in the taco shells with the slaw on top."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "15 minutes",
+      "Cook": "15 minutes",
+      "Total": "30 minutes"
+    },
+    "Tags": [
+      "Mexican",
+      "Fish"
+    ],
+    "Rating": {
+      "Average": 4.5,
+      "Number of Ratings": 100
+    }
+  },
+  {
+    "Title": "Vegetable Stir Fry",
+    "Author": "Li Wei",
+    "ID": 7,
+    "Overview": "This quick and easy vegetable stir fry is a great way to use up leftover vegetables. The sauce is a simple combination of soy sauce, garlic, and ginger, but it packs a lot of flavor. Serve it over rice for a complete meal.",
+    "Image": "/images/vegetable_stir_fry.jpg",
+    "Date Added": "06-03-2022",
+    "Ingredients": [
+      {
+        "Name": "Mixed Vegetables",
+        "Amount": 500,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Soy Sauce",
+        "Amount": 2,
+        "Unit": "tablespoons"
+      },
+      {
+        "Name": "Garlic",
+        "Amount": 2,
+        "Unit": "cloves"
+      },
+      {
+        "Name": "Ginger",
+        "Amount": 1,
+        "Unit": "piece"
+      }
+    ],
+    "Steps": [
+      "Fry the vegetables in a wok or large pan.",
+      "Mix the soy sauce, minced garlic, and grated ginger to make a sauce.",
+      "Pour the sauce over the vegetables and stir well.",
+      "Serve over rice."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "10 minutes",
+      "Cook": "15 minutes",
+      "Total": "25 minutes"
+    },
+    "Tags": [
+      "Chinese",
+      "Vegetarian"
+    ],
+    "Rating": {
+      "Average": 4.4,
+      "Number of Ratings": 120
+    }
+  },
+  {
+    "Title": "Cheeseburger",
+    "Author": "John Smith",
+    "ID": 8,
+    "Overview": "This classic cheeseburger recipe is easy to make and always a crowd-pleaser. The key to a great cheeseburger is to use high-quality ground beef and your favorite type of cheese. Serve it with a side of fries for a classic American meal.",
+    "Image": "/images/cheeseburger.jpg",
+    "Date Added": "07-03-2022",
+    "Ingredients": [
+      {
+        "Name": "Ground Beef",
+        "Amount": 500,
+        "Unit": "grams"
+      },
+      {
+        "Name": "Cheese Slices",
+        "Amount": 4,
+        "Unit": "slices"
+      },
+      {
+        "Name": "Buns",
+        "Amount": 4,
+        "Unit": "whole"
+      },
+      {
+        "Name": "Lettuce",
+        "Amount": 4,
+        "Unit": "leaves"
+      },
+      {
+        "Name": "Tomato",
+        "Amount": 1,
+        "Unit": "whole"
+      }
+    ],
+    "Steps": [
+      "Form the ground beef into patties and season with salt and pepper.",
+      "Grill the patties until they're cooked to your liking.",
+      "Place a slice of cheese on each patty and let it melt.",
+      "Serve the patties on the buns with lettuce and sliced tomato."
+    ],
+    "Servings": 4,
+    "Cook Time": {
+      "Prep": "15 minutes",
+      "Cook": "15 minutes",
+      "Total": "30 minutes"
+    },
+    "Tags": [
+      "American",
+      "Beef"
+    ],
+    "Rating": {
+      "Average": 4.5,
+      "Number of Ratings": 200
+    }
+  }
+]
